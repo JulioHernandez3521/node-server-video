@@ -1,0 +1,17 @@
+{
+  "name": "video-server",
+  "version": "1.0.0",
+  "description": "Is an example that how to make a streaming video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Julio Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
